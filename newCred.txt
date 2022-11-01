@@ -1,0 +1,57 @@
+localhost:8100/api/admin/login
+{  "username":"adminns",
+    
+    "password":"abcd@2228"
+    
+}
+....................
+localhost:8100/api/admin/registration
+{  "userName":"adminn",
+    "name":"such",
+    "firstName":"as",
+    "lastName":"mane",
+    "password":"abcd@2228",
+    "gender":"FEMALE",
+    "contactNumber":"1234567890",
+    "email":"admin@gmail.com"
+}
+.............................
+localhost:8100/api/User/registration
+{
+    "name": "suchitarane",
+    "userName": "Suchitar",
+    "password":"12345678",
+    "address": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "email":"a78@gmail.com",
+    "pan":"eijp7591f",
+    "contactNumber":"9896543210",
+    "date":"2022-09-02",
+    "accountType":"Saving"
+    }
+.......................................
+localhost:8100/api/User/login
+{
+    
+    "username": "Suchitar",
+    "password":"12345678"
+    
+    }
+...............................................
+localhost:8100/api/User/applyLoan
+{
+    
+    "loanType":"carloan",
+    "loanAmount":"30000",
+    "applyDate":"2022-10-25",
+    "durationOFLoan":"2",
+    "rateOfInterest":"7",
+    "custId":"10",
+    "activateStatus":"Pending",
+    "status":"true"
+    }
+...............................................
+localhost:8100/api/admin/updateloanDetails/11/Approved .........put
+.........................................
+localhost:8100/api/admin/getAllLoanDetails ..........GET
